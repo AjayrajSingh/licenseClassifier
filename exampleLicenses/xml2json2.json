@@ -1,0 +1,108 @@
+{
+    "xmlns": "http://www.spdx.org/license",
+    "license": {
+        "isOsiApproved": true,
+        "licenseId": "AAL",
+        "name": "Attribution Assurance License",
+        "crossRefs": {
+            "crossRef": {
+                "$t": "https://opensource.org/licenses/attribution"
+            }
+        },
+        "notes": {
+            "$t": "This license was released: 2002\n    Originally written by Edwin A. Suominen for licensing his PRIVARIA secure networking     software\n        (see www.privaria.org). The author, who is not an attorney, places this license template into\n        the public domain along with a complete disclaimer of any warranty or responsibility for its\n       content or legal efficacy. You may use or modify the language freely, but entirely at your\n        own risk.\n"
+        },
+        "text": {
+            "titleText": [
+                {
+                    "p": {
+                        "$t": "Attribution Assurance License"
+                    }
+                },
+                {
+                    "p": {
+                        "$t": "ATTRIBUTION ASSURANCE LICENSE (adapted from the original BSD license)"
+                    }
+                }
+            ],
+            "copyrightText": {
+                "p": [
+                    {
+                        "$t": "Copyright (c) 2002 by AUTHOR PROFESSIONAL IDENTIFICATION * URL PROMOTIONAL SLOGAN FOR AUTHORS PROFESSIONAL PRACTICE\n         "
+                    },
+                    {
+                        "$t": "All Rights Reserved"
+                    }
+                ]
+            },
+            "p": [
+                {
+                    "$t": "(the \"Author\"), who hopes that its promotional value\n        may help justify the thousands of dollars in otherwise billable time invested in writing this and other\n        freely available, open-source software.\n      ",
+                    "alt": {
+                        "match": ".+",
+                        "name": "author",
+                        "$t": "<AUTHOR>"
+                    }
+                },
+                {
+                    "$t": "THIS FREE SOFTWARE IS PROVIDED BY THE AUTHOR \"AS IS\" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING,\n         BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE\n         DISCLAIMED. IN NO EVENT SHALL THE AUTHOR OR ANY CONTRIBUTOR BE LIABLE FOR ANY DIRECT, INDIRECT,\n         INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, EFFECTS OF\n         UNAUTHORIZED OR MALICIOUS NETWORK ACCESS; PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,\n         DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN\n         CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE\n         USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.}], list: {item: [{bullet: {$t: 1.}, $t:           Redistributions of source code, in whole or part and with or without modification (the Code),\n             must prominently display this GPG-signed text in verifiable form.\n"
+                },
+                {
+                    "bullet": {
+                        "$t": "2."
+                    },
+                    "$t": "Redistributions of the Code in binary form must be accompanied by this GPG-signed text in any\n             documentation and, each time the resulting executable program or a program dependent thereon\n             is launched, a prominent display (e.g., splash screen or banner text) of the Authors\n             attribution information, which includes \n"
+                },
+                {
+                    "bullet": {
+                        "$t": "3."
+                    },
+                    "$t": "Neither the name nor any trademark of the Author may be used to endorse or promote products\n             derived from this software without specific prior written permission.\n        "
+                },
+                {
+                    "bullet": {
+                        "$t": "4."
+                    },
+                    "$t": "          Users are entirely responsible, to the exclusion of the Author and any other persons, for\n             compliance with (1) regulations set by owners or administrators of employed equipment, (2)\n             licensing terms of any other software, and (3) local regulations regarding use, including\n             those regarding import, export, and use of encryption software.\n        "
+                }
+            ],
+            "list": {
+                "item": [
+                    {
+                        "bullet": {
+                            "$t": "(a)"
+                        },
+                        "alt": {
+                            "match": ".+",
+                            "name": "author",
+                            "$t": "Name"
+                        },
+                        "$t": "(\"AUTHOR\"),\n\n          "
+                    },
+                    {
+                        "bullet": {
+                            "$t": "(b)"
+                        },
+                        "alt": {
+                            "match": ".+",
+                            "name": "profIdent",
+                            "$t": " Professional identification"
+                        },
+                        "$t": "(\"PROFESSIONAL IDENTIFICATION\"), and\n\n          "
+                    },
+                    {
+                        "bullet": {
+                            "$t": "(c)"
+                        },
+                        "alt": {
+                            "match": ".+",
+                            "name": "url",
+                            "$t": "URL"
+                        },
+                        "$t": "(\"URL\").\n\n          "
+                    }
+                ]
+            }
+        }
+    }
+}
