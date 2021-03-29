@@ -12,9 +12,9 @@ Dart package to detect under what license a project is distributed.
 
 ### The problem
 
-There are many packages on pub.dev. How do we know what we can and can't do with the package?
-We've got a bunch of open source projects, how do we know what their licenses are?
-We've got a project with a license file, but which license is it? Has it been modified?
+- There are many packages on pub.dev. How do we know what we can and can't do with the package?
+- We've got a bunch of open source projects, how do we know what their licenses are?
+- We've got a project with a license file, but which license is it? Has it been modified?
 
 ### The solution
 
