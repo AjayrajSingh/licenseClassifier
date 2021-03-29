@@ -32,6 +32,7 @@ This project is inspired by @licensee github project https://github.com/licensee
 - ✅ License Fetching
 - ✅ License Content Parsing
 - ⬜ Print License as markdown
+- ⬜ Exception handling
 - ⬜ Create Matcher
     - ⬜ Header check method
     - ⬜ Direct match method
