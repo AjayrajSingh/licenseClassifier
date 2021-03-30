@@ -26,7 +26,7 @@ class LicenseParser {
   /// Parses the license content and extracts data of "content" tag
   ///
   /// Fetched content is Base64 encoded and hence decoded using decodeContent method
-  Future<void> fetchLicenseJsonList() async {
+  Future<void> fetchLicense() async {
     decodeContent(
       content: jsonDecode(await fetchResponse())['content'].toString(),
     );
@@ -39,7 +39,6 @@ class LicenseParser {
         content.replaceAll('\n', ''),
       ),
     );
-    parseXML(xmlContent: this.content);
   }
 
   /// Parses the XML license file
@@ -47,7 +46,9 @@ class LicenseParser {
   /// Prints the license content on console
   ///
   /// XML content first converts into JSON and then printed
-  void parseXML({String xmlContent}) async {
+  ///
+  // TODO: Construct parse tree for extracting license content from JSON
+  void printLicense({String xmlContent}) async {
     /// Instance of Xml2Json Class
     final myTransformer = Xml2Json();
 
@@ -60,6 +61,7 @@ class LicenseParser {
     /// List of elements under 'SPDXLicenseCollection' tag
     var elementList = jsonDecode(json)['SPDXLicenseCollection'];
 
+    // This implementation is temprary and just to meet GSoC proposal sample
     print(
       'License Id: ' + elementList['license']['licenseId'],
     );
