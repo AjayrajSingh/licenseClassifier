@@ -69,15 +69,16 @@ class LicenseParser {
     print(
       'CrossRef: ' + elementList['license']['crossRefs']['crossRef']['\$t'],
     );
-    // print('\n' +
-    //     elementList['license']['text']['copyrightText']['p']['\$t'].toString());
-    // print('\n\t' +
-    //     elementList['license']['text']['p'][0]['\$t']
-    //         .toString()
-    //         .replaceAll("\\n", "\n"));
-    // print('\n\t' +
-    //     elementList['license']['text']['p'][1]['\$t']
-    //         .toString()
-    //         .replaceAll("\\n", "\n"));
+
+    print('\n' +
+        elementList['license']['text']['copyrightText']['p']['\$t'].toString());
+    print('\n\t' +
+        elementList['license']['text']['p'][0]['\$t']
+            .toString()
+            .replaceAll("\\n", "\n"));
+    print('\n\t' +
+        elementList['license']['text']['p'][1]['\$t']
+            .toString()
+            .replaceAll("\\n", "\n"));
   }
 }
