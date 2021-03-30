@@ -1,0 +1,2 @@
+exampleLicenses directory contains examples of randomly fetched and XML to JSON converted SPDX licenses, for understanding the markup rules and tags.
+This directory will be deleted after the final Integration testing.
