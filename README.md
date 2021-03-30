@@ -34,9 +34,9 @@ This project is inspired by @licensee github project https://github.com/licensee
 - ⬜ Print License as markdown
 - ⬜ Exception handling
 - ⬜ Create Matcher
-    - ⬜ Header check method
-    - ⬜ Direct match method
-    - ⬜ Percentage match method
+    - ⬜ Header match method
+    - ⬜ Exact match method
+    - ⬜ Dice match method
 - ⬜ Code formatting and documentation
 - ⬜ Tests
 
