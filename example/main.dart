@@ -1,4 +1,4 @@
-import 'package:classifier/classifier.dart';
+import 'package:licenseClassifier/classifier.dart';
 import 'dart:convert';
 
 // Below given implementation is temprary, LicenseList and LicenseParser
