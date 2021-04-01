@@ -41,6 +41,11 @@ class LicenseParser {
     );
   }
 
+  //TODO: Convert and return license text to inline string
+  String toString() {
+    return '';
+  }
+
   /// Parses the XML license file
   ///
   /// Prints the license content on console
