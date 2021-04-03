@@ -1,5 +1,6 @@
 /// Provides matchers method to detect the license
 class Matcher {
+  /// Stores the inline License text passed to the constructor
   String inlineLicense = '';
 
   Matcher({
